@@ -1,0 +1,142 @@
+@charset "utf-8";
+
+/* CSS for navigation bar */
+#nav-bar {
+	background-color: #fff;
+	width: 100%;
+	position: fixed;
+	z-index: 1000000000;
+}
+
+#nav-bar .shadow {
+	-moz-box-shadow: 2px 1px 6px 0px #333;
+	-webkit-box-shadow: 2px 1px 6px 0px #333;
+	box-shadow: 2px 1px 6px 0px #333;
+	border-bottom: 1px solid #000;
+}
+
+.over-flyout-shadow {
+	-moz-box-shadow: 2px -45px 200px 0px #333;
+	-webkit-box-shadow: 2px -45px 200px 0px #333;
+	box-shadow: 2px -45px 200px 0px #333;
+	border-bottom: 1px solid #999;
+}
+
+#main-content {
+	padding-top: 70px;
+	position: relative;
+}
+
+#nav-bar-container {
+	background-color: #fff;
+	max-width: 1598px;
+	margin: auto;
+	padding: 5px 3% 0px;
+}
+
+#nav-bar-cn-logo,
+._nav-bar-buttons,
+._nav-bar-dividers {
+	float: left;
+}
+
+#nav-bar-cn-logo {
+	display: block;
+	height: 56px;
+	margin: 6px 18px 9px 0px;
+	width: 98px;
+}
+
+#nav-bar-cn-logo img {
+	display: block;
+	width: 100%;
+}
+
+._nav-bar-dividers {
+	background-color: #c4c4c4;
+	height: 47px;
+	margin: 13px 2px;
+	width: 1px;
+}
+
+._nav-bar-button-text {
+	color: #000;
+	display: block;
+	font-family: IntervogueAltMedium;
+	font-size: 18px;
+	line-height: 72px;
+	padding: 0px 20px;
+	text-transform: uppercase;
+}
+
+._nav-bar-desktop-items {
+	float: right;
+	height: 72px;
+	width: 24%;
+	text-align: right;
+}
+
+._nav-bar-icons {
+	display: inline-block;
+	margin-left: 15px;
+	margin-top: 14px;
+	position: relative;
+	vertical-align: middle;
+}
+
+._nav-bar-icon-text {
+	background-repeat: no-repeat;
+	color: #fff;
+	display: none;
+	font-family: IntervogueAltMedium;
+	position: absolute;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#nav-bar-icon-schedule {
+	background-image: url(../images/nav-bar-sprites.png);
+	background-position: 0 -787px;
+	height: 25px;
+	width: 25px;
+}
+
+#nav-bar-icon-search {
+	background-color: #efefef;
+	border: 1px solid #8a8a8a;
+	border-radius: 10px;
+	height: 39px;
+	position: relative;
+	text-align: left;
+	width: 100%;
+}
+
+#nav-bar-icon-searchBox {
+	background: none;
+	border: none;
+	color: #505050;
+	display: inline-block;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	height: 37px;
+	left: 10px;
+	line-height: 37px;
+	outline: none;
+	position: absolute;
+	width: 78%;
+}
+
+#nav-bar-icon-search-icon {
+	background-image: url(../images/nav-bar-sprites.png);
+	background-position: 0 -981px;
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	display: inline-block;
+	font-family: Arial, Helvetica, sans-serif;
+	height: 24px;
+	margin-top: 7.5px;
+	right: 10px;
+	position: absolute;
+	width: 24px;
+}

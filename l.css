@@ -1,0 +1,77 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Footer container */
+#footer-container {
+    background-color: #333;
+    padding: 20px;
+}
+
+/* Footer wrapper */
+.footer-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+/* Footer navigation */
+#footer-navigation {
+    flex: 1;
+}
+
+.footer-nav-column-1,
+.footer-nav-column-2 {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-nav-column-1 li,
+.footer-nav-column-2 li {
+    margin-bottom: 10px;
+}
+
+.footer-nav-text {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-nav-text:hover {
+    text-decoration: underline;
+}
+
+/* Footer content */
+#footer-content {
+    flex: 1;
+}
+
+.footer-content-legal-large,
+.footer-content-legal-small {
+    color: #ccc;
+}
+
+.footer-content-images {
+    margin-top: 20px;
+}
+
+.footer-content-image-cartoon-network-logo,
+.footer-content-image-rating,
+.footer-content-image-georgia,
+.footer-content-image-kids-safe-seal {
+    margin-right: 10px;
+}
+
+.footer-content-image-sbsu,
+.footer-content-image-cartoonito {
+    margin-bottom: 10px;
+}
+
+.footer-content-ga-tax {
+    color: #aaa;
+    font-style: italic;
+}
